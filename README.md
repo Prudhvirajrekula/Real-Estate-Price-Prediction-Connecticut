@@ -69,8 +69,8 @@ Models are downloaded from Google Drive using `gdown`.
 ### 🔹 Clone the Repository
 
 ```bash
-git clone https://github.com/Prudhvirajrekula/Real-Estate-Price-Forecasting-Connecticut.git
-cd RealEstatePriceApp
+git clone https://github.com/Prudhvirajrekula/Real-Estate-Price-Prediction-Connecticut.git
+cd Real-Estate-Price-Prediction-Connecticut
 ```
 
 ### 🔹 Install Dependencies
