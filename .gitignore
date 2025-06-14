@@ -1,0 +1,12 @@
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+real_env/
+
+# Ignore large files and models (hosted via Google Drive)
+*.pkl
+*.csv
+
+# Ignore VSCode settings if any
+.vscode/
