@@ -9,8 +9,14 @@ A full-stack data science project that includes **end-to-end real estate price p
 This project involves:
 - Extensive EDA, preprocessing, and feature engineering in a Jupyter Notebook
 - Training and evaluation of multiple models: **Random Forest**, **XGBoost**
-- Saving trained models using `joblib`
+- Saving trained models using `joblib` (models hosted externally)
 - Deploying a user-facing **Streamlit app** for interactive predictions
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Open the Streamlit Web App](https://real-estate-price-forecasting-connecticut-prudhviraj.streamlit.app/)
 
 ---
 
@@ -21,9 +27,7 @@ This project involves:
 ├── app.py                              # Streamlit web application
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # Project overview and instructions
-├── rf_model.pkl / xgb_model.pkl        # (Optional if hosted on Google Drive)
-├── Real_Estate_Sales_2001-2022_GL.csv # Raw dataset used for modeling
-└── Real_Estate_Price_Forecasting.ipynb# Full notebook with analysis & modeling
+└── Real_Estate_Price_Forecasting.ipynb # Full notebook with analysis & modeling
 ```
 
 ---
@@ -56,7 +60,7 @@ The Streamlit app allows users to:
 - Click a button to **predict the estimated sale price**
 - Learn through built-in tooltips and expandable help sections for non-technical users
 
-Models are automatically downloaded from **Google Drive** using `gdown`.
+Models are downloaded from Google Drive using `gdown`.
 
 ---
 
@@ -83,9 +87,15 @@ streamlit run app.py
 
 ---
 
-## 🚀 Example Use Case
+## 📂 Dataset Source
 
-> Curious how much your property in Stamford, CT might sell for?  
-Just plug in the **assessed value**, **property type**, and **expected sale date**, and let the ML models do the math!
+The dataset used for this project is publicly available at:
+
+🔗 [Real Estate Sales 2001–2018 – Data.gov](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 
 ---
+
+## 🤝 Credits
+
+Built by [Prudhvi Raj Rekula](https://github.com/Prudhvirajrekula)  
+Powered by Python, Streamlit, scikit-learn, and XGBoost.
