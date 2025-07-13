@@ -94,6 +94,9 @@ The dataset used for this project is publicly available at:
 🔗 [Real Estate Sales 2001–2018 – Data.gov](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 
 ---
+## Screenshots
+<img width="1912" height="1082" alt="Realestate" src="https://github.com/user-attachments/assets/f6bd7253-1045-49da-ba9e-56d4c6a308ee" />
+<img width="1916" height="1038" alt="Realestate1" src="https://github.com/user-attachments/assets/0e4b4486-8cf3-4676-a1a1-118f7094731e" />
 
 ## 🤝 Credits
 
